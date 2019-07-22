@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>PP | Post Product</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Materialize CSS --> 
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Tooltip CSS --> 
+    <link rel="stylesheet" href="vendors/tooltip/balloon.min.css">
+    <!-- Icon CSS-->  
+    <link rel="stylesheet" href="vendors/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Check-button CSS-->  
+    <link rel="stylesheet" href="vendors/calendar/dcalendar.picker.css"> 
+    <!-- Calendar CSS-->
+    <link rel="stylesheet" href="vendors/check-button/jqflipswitch.default.style.css"> 
+    
+    <!--Theme Styles CSS-->
+	<link rel="stylesheet" href="css/style.css" media="all" /> 
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>   
+    <!-- Header_Area --> 
+    <nav class="header_area"> 
+        <div class="custom_container"> 
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo"><img src="images/logo.png" alt=""></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+ 
+                <ul class="left_menu hide-on-med-and-down">
+                    <li><a href="index.html" class="active">Home</a></li>  
+                    
+                
+                    <li><a href="photos.html">Photos</a></li>
+                    <li class="notifications search_sm"><a class="dropdown-button" href="#!" data-activates="dropdown5"><i class="ion-ios-search"></i></a>
+                        <!-- Dropdown Structure -->
+                        
+                    </li>
+                </ul>
+                <ul class="right right_menu hide-on-med-and-down">
+    
+                    <!-- Follow feed -->
+           <li><a href="https://form.myjotform.com/91984657663576" class="waves-effect btn post_btn modal-trigger"><i class="ion-plus"></i><span>Add Post</span></a></li> 
+                        <!-- Dropdown Structure -->
+                       
+                        <!-- Dropdown Structure -->
+                     
+                    <!-- Profile -->
+              
+                        <!-- Dropdown Structure -->
+                        <ul id="dropdown1" class="dropdown-content">
+                      
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li class="search_min">
+                       <div class="search_from"> 
+                       </div>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                        <!-- Dropdown Structure -->
+              
+                    </li> 
+                    <li><a href="photos.html">Photos</a></li>
+                    <!-- Follow feed -->
+                   
+                            
+                    <!-- Messages -->
+               
+                        <!-- Dropdown Structure -->
+                        <ul id="dropdown_s2" class="dropdown-content">
+                            <li class="hed_notic">Messages <span>Mark all as read <i class="ion-ios-gear-outline"></i></span></li> 
+                            <li>
+                               <a href="#">
+                                   <div class="media"> 
+                                        <img src="images/profile-1.jpg" alt="" class="circle responsive-img">  
+                                        <div class="media_body">
+                                            <h4>Emran Khan <small>12:40pm</small></h4>
+                                            <p>Listen, I need to talk to you about this!</p>
+                                        </div> 
+                                   </div>
+                               </a>  
+                            </li>
+                            <li>
+                               <a href="#">
+                                   <div class="media"> 
+                                        <img src="images/profile-3.jpg" alt="" class="circle responsive-img">  
+                                        <div class="media_body">
+                                            <h4>Masum Rana <small>2 hours ago</small></h4>
+                                            <p>One of the best ways to make a great vacation quickly horrible is to choose the...</p>
+                                        </div> 
+                                   </div>
+                               </a>  
+                            </li>
+                            <li>
+                               <a href="#">
+                                   <div class="media seen"> 
+                                        <img src="images/profile-8.jpg" alt="" class="circle responsive-img">  
+                                        <div class="media_body">
+                                            <h4>Jakaria Khan <small>3 hours ago</small></h4>
+                                            <p>Hi</p>
+                                        </div> 
+                                   </div>
+                               </a>  
+                            </li>
+                            <li>
+                               <a href="#">
+                                   <div class="media"> 
+                                        <img src="images/profile-5.jpg" alt="" class="circle responsive-img">  
+                                        <div class="media_body">
+                                            <h4>Papia Sultana <small>2 days ago</small></h4>
+                                            <p>Hey Masum, I'm looking for you as a new actor for upcoming Equalizer 2 movie...</p>
+                                        </div> 
+                                   </div>
+                               </a>  
+                            </li>
+                            <li>
+                               <a href="#">
+                                   <div class="media seen"> 
+                                        <img src="images/profile-7.jpg" alt="" class="circle responsive-img">  
+                                        <div class="media_body">
+                                            <h4>Samuel L. <small>5 days ago</small></h4>
+                                            <p>Hello</p>
+                                        </div> 
+                                   </div>
+                               </a>  
+                            </li>
+                            <li><a href="messages.html" class="waves-effect chack_all_btn">Check All Messages</a></li>
+                        </ul>
+                    </li>
+                    <!-- Notifications -->
+                    <
+                      
+            
+               
+                    
+                    <!-- Profile -->
+            
+                        <!-- Dropdown Structure -->
+                
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End  Header_Area --> 
+    
+    <!-- Tranding-select and banner Area -->  
+
+    <div class="banner_area">
+        <img src="images/banner.jpg" alt="" class="banner_img">
+    </div>
+    <!-- End Tranding Area -->  
+    
+    <!-- Min Container area -->
+    <section class="min_container min_pages">
+        <div class="section_row">
+            <div class="middle_section col" id="infinite_scroll"> 
+            <div id="latest"> 
+                <!-- Post -->
+                <div class="fast_post">
+                    <div class="post">
+                       <div class="post_content"> 
+                            <a  class="post_img">
+                                <img src="images/post.jpg" alt="">
+                                <span><i class="ion-android-radio-button-off"></i>Cooking</span>
+                            </a>
+                            <div class="row author_area">
+                                <div class="col s4 author">
+                                    <div class="col s4 media_left"><img src="images/author-1.jpg" alt="" class="circle"></div>
+                                    <div class="col s8 media_body">
+                                        <a >Abdelbari Salimi</a>
+                                        <span>Jully 19 2019</span>
+                                    </div>
+                                </div>
+                                <div class="col s4 btn_floating"> 
+                              
+                                </div> 
+                                <div class="col s4 like_user">
+                                    <ul class="like_img">
+                                       <li> 
+                               
+                                       </li>
+                              
+                                    </ul>  
+                                </div>
+                            </div>
+                            <a  class="post_heding">Why you should not buy the Portable Blending</a>
+                            <p>You can bought this and used it to blend your babies food.  Washed it as you normally wash things.  Took it out of the cupboard a week later to notice a foul smell.  Upon further investigation you will realise there's a rubber seal & food had gotten caught underneath it.  and you have to pry this seal off with a knife. Not hygienic at all,  quite dangerous in fact  you can discover reviews from this link  </p>
+                        </div>
+
+                        <div class="like_comment_area row">
+                        
+             
+                   
+                        </div>
+                   
+                    </div><!-- End Post -->
+                </div>
+                <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a class="post_img">
+                            <img src="images/post-2.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Dropshipping</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-2.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a>Abdelbari Salimi</a>
+                                    <span>Jully 19 2019</span>
+                                </div>
+                            </div> 
+                            <div class="col s4 like_user offset-s4">
+                                <ul class="like_img"> 
+                                    <li class="post_d"><a class="dropdown-button waves-effect" href="#!" data-activates="post_dropdown_2"><i class="ion-android-more-vertical"></i></a>
+                                        <!-- Dropdown Structure -->
+                                        <ul id="post_dropdown_2" class="dropdown-content">
+                                    
+                                        </ul>
+                                    </li>
+                                </ul>  
+                            </div>
+                        </div>
+                        <a  class="post_heding">Video Doorbell</a>
+                        <p>The global spending for smart video doorbells is projected to increase by 180% over the period 2017-2023. The report forecasts its market will enjoy 28% CAGR in the next five years. Its revenue is composed majorly of the U.S. market. The substantial growth suggests the rising number in new entrants for the near future. Thus, now is a great time for online retailers to sell video doorbell as the threat of competition is not strong enough to push the price down. The industry is concentrated with a few large suppliers.</p>
+                   </div>
+
+               
+                </div><!-- End Post --> 
+
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a class="post_img">
+                            <img src="images/post-3.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Dropshipping</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-1.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a>Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div>
+                            <div class="col s4 btn_floating"> 
+                   
+                            </div> 
+                            <div class="col s4 like_user">
+                                <ul class="like_img">
+                              
+                                     
+                                  
+                                    <li class="post_d"><a class="dropdown-button waves-effect" href="#!" data-activates="post_dropdown_3"><i class="ion-android-more-vertical"></i></a>
+                                        <!-- Dropdown Structure -->
+                                      
+                                    </li>
+                                </ul>  
+                            </div>
+                        </div>
+                        <a href="details.html" class="post_heding">A new Best product for dropshipping</a>
+                        <p>Grillz are a profitable product in e-commerce , as you can see in the image above, the curve is in constant evolution and when it decreases, it decreases only relatively you can test this product in mississippi as the first country in the world which is searching for this product According to
+Google Trends   <a href="https://trends.google.com/trends/explore?geo=US&q=grillz" >You can discover the analytics form here</a> </p>
+                   </div>
+
+                </div><!-- End Post -->
+            
+
+              
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a  class="post_img">
+                            <img src="images/post-6.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Dropshipping</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-2.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a >Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div> 
+                            <div class="col s4 like_user offset-s4">
+                          
+                            </div>
+                        </div>
+                        <a  class="post_heding">Stuffed Toy</a>
+                        <p>Whether its a gift for a newborn baby or a gift for yourself, a stuffed toy or a plush is always a safe bet. According to Vice, 7% of adults sleep with a stuffed animal. So if you dont want to go after the kids market you can aim to target millennials. 
+
+Oberlo users can dropship a popular product like this elephant plush. The trending product has generated tens of thousands of sales. And its been pretty stable for quite a few years.</p>
+                   </div>
+
+                    <div class="like_comment_area row">
+                        <div class="col s4 btn_floating"> 
+                            <a class="btn-floating waves-effect"><i class="ion-android-share-alt"></i></a>
+                            <h6></h6>
+                        </div> 
+       
+                     
+                    </div> 
+                </div><!-- End Post --> 
+         
+            </div>
+              
+            <div id="trending"> 
+                <!-- Post -->
+                <div class="fast_post"> 
+                    <div class="post">
+                       <div class="post_content"> 
+                            <a  class="post_img">
+                                <img src="images/post-11.jpg" alt="">
+                                <span><i class="ion-android-radio-button-off"></i>drones</span>
+                            </a>
+                            <div class="row author_area">
+                                <div class="col s4 author">
+                                    <div class="col s4 media_left"><img src="images/author-2.jpg" alt="" class="circle"></div>
+                                    <div class="col s8 media_body">
+                                        <a >Abdelbai Salimi</a>
+                                        <span>july 19 2019</span>
+                                    </div>
+                                </div> 
+                                <div class="col s4 like_user offset-s4">
+                                    <ul class="like_img"> 
+                                        <li class="post_d"><a class="dropdown-button waves-effect" href="#!" data-activates="post_dropdown_2"><i class="ion-android-more-vertical"></i></a>
+                                            <!-- Dropdown Structure -->
+                                     
+                                        </li>
+                                    </ul>  
+                                </div>
+                            </div>
+                            <a class="post_heding">Parrot AR Drone 2.0 Elite Edition</a>
+                            <p>Look it was a great beginners drone, but Parrot have discontinued this for a reason! My drone had an altitude problem, where it would increase altitude at a rapid speed (without my control) and then come straight back down and hit the ground. Then try to do the same thing again. There was clearly something wrong with it. The bottom camera is practically useless, it was so blurry. Ive returned mine now and upgraded to another brand. Wouldnt recommend</p>
+                       </div>
+
+                        <div class="like_comment_area row">
+                            <div class="col s4 btn_floating"> 
+                              
+                            </div> 
+                            <div class="col s4 updown_btn"> 
+                        
+                            </div>
+                            <div class="col s4 updown_btn comment_c"> 
+                               
+                            </div>  
+                        </div> 
+                    </div><!-- End Post --> 
+                </div>
+
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a  class="post_img">
+                            <img src="images/post-12.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Technology</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-1.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a >Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div>
+                         
+                            <div class="col s4 like_user">
+                                <ul class="like_img">
+                                   <li> 
+                                        <ul class="hide_sm"> 
+                                      
+                                        </ul>
+                                   </li>
+                                    <li class="post_d"><a class="dropdown-button waves-effect" data-activates="post_dropdown_3"><i class="ion-android-more-vertical"></i></a>
+                                        <!-- Dropdown Structure -->
+                               
+                                    </li>
+                                </ul>  
+                            </div>
+                        </div>
+                        <a class="post_heding">Razer Kraken 7.1</a>
+                        <p>These headphones are quality, the sound is great and they do help with immersing yourself into games especially if you are playing at higher levels of the game. One thing which I'm sure most people wouldn't do anyway is wear only one ear muff and have the other ear out. This is how I like to play and unfortunately sometimes the audio doesn't get picked up into the ear that I am using and I miss vital bits of information and have lost tournaments like this :'(. Other than this it would definitely be a 5 star product. It works great, sound is great, easy to set up and configure and easy to find when compared to some of the other good brands of gaming products. Plus I love the green it matches my razer mouse also!</p>
+                   </div>
+
+                    <div class="like_comment_area row">
+                        <div class="col s4 btn_floating"> 
+                       
+                        </div> 
+                        <div class="col s4 updown_btn"> 
+           
+                        </div>
+           
+                    </div> 
+     
+                </div><!-- End Post -->
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a  class="post_img">
+                            <img src="images/post-4.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Hardware</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-2.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a>Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div> 
+                            <div class="col s4 like_user offset-s4">
+                            
+                            </div>
+                        </div>
+                        <a class="post_heding">Whats Next? AMD RX 5000 Series  RX 5800/5900 Series Incoming</a>
+                        <p>AMD could very well be canceling the Radeon VII due to an imminent successor such as the RX 5800 or RX 5900 series. Sapphire has registered over a dozen product names pointing at both high-end Navi and cut-down Navi variants on the horizon.</p>
+                   </div>
+
+                    <div class="like_comment_area row">
+                 
+                  
+                 
+                    </div> 
+                </div><!-- End Post --> 
+
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a  class="post_img">
+                            <img src="images/post-5.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Technology</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-1.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a>Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div>
+                            <div class="col s4 btn_floating"> 
+                         
+                            </div> 
+                            <div class="col s4 like_user">
+                                <ul class="like_img"> 
+                                   <li> 
+                               
+                                   </li>
+                              
+                                </ul>  
+                            </div>
+                        </div>
+                        <a  class="post_heding">Nintendo introduces a Switch model</a>
+                        <p>Nintendo already announced an entirely new Switch console this month, the Switch Lite, and now its bumping some of the specs on the existing Switch with a slightly updated version, spotted by The Verge. This update improves the hardware right where it counts when it comes to Switch portable playing power.</p>
+                   </div>
+
+                    <div class="like_comment_area row">
+               
+          
+             
+                    </div>
+           
+                </div><!-- End Post -->
+               <!-- Post -->
+                <div class="post">
+                   <div class="post_content"> 
+                        <a  class="post_img">
+                            <img src="images/post-13.jpg" alt="">
+                            <span><i class="ion-android-radio-button-off"></i>Advertising</span>
+                        </a>
+                        <div class="row author_area">
+                            <div class="col s4 author">
+                                <div class="col s4 media_left"><img src="images/author-2.jpg" alt="" class="circle"></div>
+                                <div class="col s8 media_body">
+                                    <a>Abdelbari Salimi</a>
+                                    <span>july 19 2019</span>
+                                </div>
+                            </div> 
+                            <div class="col s4 like_user offset-s4">
+                           
+                            </div>
+                        </div>
+                        <a  class="post_heding">Teamgroup VULCAN Z 16 GB (2 x 8 GB) 3200 MHz CL16 DDR4 Memory Kit </a>
+                        <p>The Teamgroup T-Force Vulcan Z 16 GB DDR4 memory kit is designed to offer pure value. The kit we received is optimized at a clock speed of 3200 MHz (PC4-25600). The memory kit consists of dual 8 GB DIMMs which make up a total of 16 GB in capacity</p>
+                   </div>
+
+                    <div class="like_comment_area row">
+                        <div class="col s4 btn_floating"> 
+                            <a class="btn-floating waves-effect"><i class="ion-android-share-alt"></i></a>
+                        
+                        </div> 
+                        <div class="col s4 updown_btn"> 
+                    
+                        </div>
+                        <div class="col s4 updown_btn comment_c"> 
+                 
+                        </div>  
+                    </div> 
+                </div><!-- End Post --> 
+      
+            </div>  
+              
+            <div id="featured"> 
+            
+           
+            </div>  
+            </div>
+            <!-- left side bar -->
+            <div class="col">
+                <div class="left_side_bar">
+                
+                    <div class="interests">
+                        <h3 class="categories_tittle">Our Interests </h3> 
+                        <ul class="interests_list">
+                            <li><a><i class="ion-android-radio-button-off"></i>Marketing</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>technology</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>E-commerce</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>Shopping</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>Photography</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>Videography</a></li>
+                            <li><a><i class="ion-android-radio-button-off"></i>Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="profile">
+                 
+                  
+                    </div>
+     
+                    <div class="calendar_widget">
+                        <h3 class="categories_tittle">Calendar</h3> 
+                        <table class="calendar"></table>
+                    </div>
+                    <div class="social_Sharing">
+                        <h3 class="categories_tittle">Social Sharing</h3>  
+                        <ul class="social_icon">
+                            <li><a href="https://twitter.com/product_post"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/Post-Product-329858094620378/?modal=admin_todo_tour" class="tumblr"><i class="ion-social-tumblr"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC9K4QAzIDj75ur67Kb33Nvg?view_as=subscriber" class="googleplus"><i class="ion-social-googleplus"></i></a></li>
+                            <li><a href="https://www.instagram.com/post_product1/" class="pinterest"><i class="ion-social-pinterest"></i></a></li>
+                       
+                        </ul>
+                    </div>
+                    <div class="advertis">
+                        <a href="https://form.myjotform.com/91893795670576"><img src="images/advertis.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Right side bar --> 
+            <div class="right_side_bar col">
+                <div class="right_sidebar_iner">
+                    <a href="https://form.myjotform.com/91893795670576"> 
+                        <img src="images/advertis-2.jpg" alt="" class="responsive-img">
+                    </a>
+                    <div class="popular_posts">
+                        <h3 class="categories_tittle">tweets
+</h3>  
+                        <div class="row valign-wrapper popular_item">
+                            <div class="col s3 p_img">
+                               <a href="#"> 
+                                    <img src="images/recent-post-1.jpg" alt="" class="circle responsive-img">
+                               </a>
+                            </div>
+                            <div class="col s9 p_content">
+                               <a href="https://twitter.com/product_post/status/1152930192018550784">Basics of Choosing Products to Sell on Your Ecommerce Stor</a>
+                                <span class="black_text">july 21 2019</span>
+                            </div>
+                        </div>
+                        <div class="row valign-wrapper popular_item">
+                            <div class="col s3 p_img">
+                               <a href="#"> 
+                                    <img src="images/recent-post-2.jpg" alt="" class="circle responsive-img">
+                               </a>
+                            </div>
+                            <div class="col s9 p_content">
+                               <a href="https://twitter.com/product_post/status/1153002725531144192">Grillz are a profitable product in e-commerce , as you can </a>
+                                <span class="black_text">july 21 2019</span>
+                            </div>
+                        </div>
+                        <div class="row valign-wrapper popular_item">
+                            <div class="col s3 p_img">
+                               <a href="#"> 
+                                    <img src="images/recent-post-3.jpg" alt="" class="circle responsive-img">
+                               </a>
+                            </div>
+                            <div class="col s9 p_content">
+                               <a href="https://twitter.com/product_post/status/1153006067913285632">Amazon: Thank you, Prime members, for making this #PrimeDay the largest shopping event </a>
+                                <span class="black_text">july 21 2019</span>
+                            </div>
+                        </div>
+                        <div class="row valign-wrapper popular_item">
+                            <div class="col s3 p_img">
+                               <a href="#"> 
+                                    <img src="images/recent-post-4.jpg" alt="" class="circle responsive-img">
+                               </a>
+                            </div>
+                            <div class="col s9 p_content">
+                               <a href="https://twitter.com/Samsung/status/1150943672323596289">#GalaxyA80 smartphones undergo intense quality testing to ensure</a>
+                                <span class="black_text">july 21 2019</span>
+                            </div>
+                        </div>
+                        <div class="row valign-wrapper popular_item">
+                            <div class="col s3 p_img">
+                               <a href="#"> 
+                                    <img src="images/recent-post-5.jpg" alt="" class="circle responsive-img">
+                               </a>
+                            </div>
+                            <div class="col s9 p_content">
+                               <a href="https://twitter.com/Huawei/status/1152175182800289792">What will happen when Huawei's #Real5G meets the Mate 20X?</a>
+                                <span class="black_text">july 21 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+               
+                           
+                         
+                              
+                         
+                          
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!-- End Min Container area --> 
+    
+    <!-- Footer area -->
+    
+        
+    <!-- End Footer area --> 
+    
+    <!-- Add post poup area --> 
+    <div id="post_modal" class="add_post modal">
+        <h2>Create A New Post</h2> 
+        <form class="input_group"> 
+            <div class="input-field">
+                <input  type="text" class="validate" placeholder="Add a tittle"> 
+                <textarea class="textarea" placeholder="Add some description"></textarea>
+            </div> 
+            <div class="upload_photo row"> 
+                <ul class="tabs tab_nav">
+                    <li class="tab col s6"><a href="#photo"><i class="ion-ios-camera"></i>Add Photo</a></li>
+                    <li class="tab col s6"><a class="" href="#video"><i class="ion-ios-videocam"></i>Add video</a></li> 
+                </ul> 
+                <div id="photo" class="col s12 tabs_content">
+                    <div class="photo_u">
+                        <img src="images/upload.png" alt="">
+                        <h4>Select files to upload <small>or drag &amp; drop files</small></h4>
+                    </div>
+                </div>
+                <div id="video" class="col s12 tabs_content"> 
+                    <div class="photo_u">
+                        <img src="images/upload.png" alt="">
+                        <h4>Select files to upload <small>or drag &amp; drop files</small></h4>
+                    </div>
+                </div> 
+            </div> 
+            <div class="input-field col s12 select_option">
+                <select> 
+                    <option value="" disabled selected>Choose a category</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option> 
+                    <option value="2">Option 2</option> 
+                    <option value="2">Option 2</option> 
+                </select> 
+                
+                <div class="chips chips-placeholder" data-index="0" data-initialized="true">
+                    <input class="input" placeholder="Enter a tag">
+                </div> 
+            </div> 
+            <div class="input-field add_link">
+                <input  type="text" class="validate" placeholder="Add a link">
+                <span>optional</span>
+            </div>
+            <div class="yes_no">
+                <h4>Anyone can submit?</h4>
+                <div class="flipswitch"></div>
+            </div>
+            <div class="row submit_btn_area"> 
+               <div class="col s6"> 
+                    <button class="waves-effect"><i class="ion-folder"></i>Save draft</button>
+               </div>
+               <div class="col s6"> 
+                    <button class="waves-effect col s6"><i class="ion-eye"></i>Preview post</button>
+               </div>
+               <div class="col s12"> 
+                    <button class="waves-effect publish">Publish</button>
+               </div>
+            </div>
+        </form> 
+    </div>
+    <!-- End Add post poup area --> 
+    
+    <!-- Popup area --> 
+    <div id="modal2" class="login_popup_aera modal">
+        <div class="login_popup_row">
+            <img src="images/login-logo.png" alt="">
+            <h4>Create a new account to Open List or <a href="#modal1" class="modal-trigger modal-close">Sign in</a></h4> 
+            <form class="input_group"> 
+                <div class="input-field">
+                    <input  type="text" class="validate" placeholder="Full Name"> 
+                    <input  type="email" class="validate" placeholder="Email"> 
+                    <input type="password" class="validate" placeholder="Password"> 
+                </div>
+                <p>
+                    <input type="checkbox" id="test" />
+                    <label for="test">I accept the <a href="#">Terms and Services</a></label>
+                </p>
+                <button class="waves-effect">SIgn in</button>
+            </form> 
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="ion-close-round"></i></a>
+        </div>
+    </div>   
+    <!-- Log In Popup --> 
+    <div id="modal1" class="login_popup_aera modal">
+        <div class="login_popup_row">
+            <img src="images/login-logo.png" alt="">
+            <h4>Log in to Open List or <a href="#modal2" class="modal-trigger modal-close">create an account</a></h4>
+            <h6>Sign in using social media</h6>
+            <ul class="with_social">
+                <li><a href="#" class="waves-effect"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="waves-effect facebook"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#" class="waves-effect google-plus"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+            <h6>or Sign in using email address</h6>
+            <form class="input_group"> 
+                <div class="input-field">
+                    <input  type="email" class="validate" placeholder="Email"> 
+                    <input type="password" class="validate" placeholder="Password"> 
+                </div>
+                <p>
+                    <input type="checkbox" id="test2" />
+                    <label for="test2">Remember me <a href="#">Forget password?</a></label>
+                </p>
+                <button class="waves-effect">SIgn in</button>
+            </form> 
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="ion-close-round"></i></a>
+        </div>
+    </div>  
+    <!-- End Popup area -->   
+    
+    <!-- jQuery JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>  
+    <!-- Materialize JS -->
+    <script src="js/materialize.min.js"></script>  
+    <!-- Calendar JS -->
+    <script src="vendors/calendar/dcalendar.picker.js"></script>  
+    <!-- Load JS -->
+    <script src="vendors/infinite-scroll/jquery.jscroll.js"></script>  
+    <!-- Check Button js -->
+    <script src="vendors/check-button/jquery.jqflipswitch.min.js"></script>
+    <script src="vendors/check-button/jquery.jqflipswitch.js"></script>
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+</body>
+</html>
